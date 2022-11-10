@@ -1,0 +1,123 @@
+body{
+   background-color: rgb(3, 42, 106);
+   height: 100%;
+   width: 100%;
+   margin : 0px;
+   /* background-image: url("https://www.shutterstock.com/image-vector/minimalist-abstract-background-outline-leaves-1934439368"); */
+   
+}
+p, li, td{
+    color:#f2f5fb;
+}
+
+.parent{
+    padding: 10px;
+}
+.project
+{
+    width: 100%;
+    margin-top:0px;
+    padding:0px;
+    /* background: rgb(163, 199, 192); */
+    display: flex;
+}
+.project h4{
+    text-align: center;
+}
+#project_1
+{
+    width:50%;
+    /* background: green; */
+    /* border: 2px solid black ; */
+    padding: 10px;
+    /* background: rgb(12, 134, 113); */
+
+}
+a{
+    text-decoration: none;
+    color: #f2f5fb;
+}
+#project_2
+{
+    width: 50%;
+    /* background: maroon; */
+    /* border: 2px solid black; */
+    /* background:  rgb(3, 42, 106); */
+    border-left: 2px solid white;
+    padding:10px;
+}
+hr{
+    margin-top: 3px;
+   
+    /* margin : 0px; */
+    width: 100%;
+    padding: 0px;
+}
+
+img {
+    border-radius: 50%;
+    
+}
+
+#knowledge{
+    width:100%;
+    padding:0px;
+    display:flex;
+}
+#knowledge h3{
+    text-align: center;
+    color: aliceblue;
+}
+.skills{
+    width:50%;
+    /* background: rgb(3, 42, 106); */
+    /* border: 2px solid black; */
+}
+.Achievement{
+    width: 50%;
+    /* background: rgb(12, 134, 113); */
+    border-left: 2px solid white;
+}
+h3{
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color:white;
+}
+
+h4{
+    margin-top:0px;
+    color:white;
+}
+.about
+{
+    text-align:  center;
+}
+.about p
+{   
+    margin: 0px;;
+    padding: 5px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact  p{
+    width: 33%;
+  
+}
+
+.project  p{
+    display: flex;
+}
+.skills tr{
+    display: inline;
+    margin: 0;
+}
+.skills tr td{
+       padding : 10px;
+}
